@@ -1,0 +1,37 @@
+.parent>*{
+height: 100px;
+width: 100px;
+background-color: black;
+
+
+display:grid;
+}
+.child1 {
+    position: absolute;
+    top:0;
+    right:0;
+
+}
+.child2 {
+    position: absolute;
+    bottom:0;
+    right:0;
+
+}
+.child3 {
+    position: absolute;
+    bottom:0;
+    left:0;
+
+}
+.child4 {
+    position: absolute;
+    top:0;
+    left:0;
+
+}
+.child5{
+    position: absolute;
+    top: 50%;
+    left:50%;
+}
