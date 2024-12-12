@@ -1,37 +1,139 @@
-.parent>*{
-height: 100px;
-width: 100px;
-background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lavishly+Yours&family=Playwrite+NZ+Guides&display=swap');
 
-
-display:grid;
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
 }
-.child1 {
-    position: absolute;
-    top:0;
-    right:0;
-
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(131, 205, 131, 0.1);
 }
-.child2 {
-    position: absolute;
-    bottom:0;
-    right:0;
-
+.body{
+    display: flex;
 }
-.child3 {
-    position: absolute;
-    bottom:0;
-    left:0;
-
+.left{
+    width : 80vw;
+    height: 80vh;
+    background-color: white;
+    background-image: linear-gradient(to bottom right, orange, white ,green);
 }
-.child4 {
-    position: absolute;
-    top:0;
-    left:0;
-
+.left img{
+    height: 74vh;
+    width: 30vw;
+    float: left;
+    margin: 2vh;
+    
 }
-.child5{
-    position: absolute;
-    top: 50%;
-    left:50%;
+.left h1{
+    font-family: "Lavishly Yours", cursive;
+    font-size: 66px;
+    font-weight: 100;
+    transition: all 1s ease;
+}
+.left p{
+    font-size: 30px;
+}
+.right{
+    width : 40vw;
+    height: 70vh;
+    margin: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3vh;
+    background-color:rgba(131, 205, 131, 0.2);
+}
+.idright{
+    width : 30vw;
+    height: 15vh;   
+    margin: auto;
+    background-color: rgba(222, 101, 32, 0.13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.left>p::first-letter{
+    color: green;
+    font-size: 55px ;
+}
+.in{
+   width: 20vh;
+   height: 15vh;
+   border: 1px solid white ;
+   background-color: orange;
+   color: white;
+   padding: 5vh;
+}
+
+.in:hover{
+ transform :scale(1.2);
+}
+h1:hover{
+ transform: translateX(150px) scale(1.1) ;
+}
+
+
+ footer{
+  display: flex;
+  margin: 30px;
+  justify-content: space-around;
+}
+.circle1{
+    display: flex;
+    gap:10px;
+}
+.circle2{
+    display: flex;
+    gap:10px;
+}
+.circle{
+     background-color: orange;
+     border-radius: 50%;
+     height: 30px;
+     width: 30px;
+   animation: dots 5s linear 0s infinite ;
+}
+.cir{
+    background-color: green;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+  animation: dots 5s linear 0s infinite ;
+}
+@keyframes dots {
+    0%{
+
+    }
+    20%{
+        transform: translateX(40px);
+    }
+    40%{
+        transform: scale(1.25);
+    }
+    60%{
+        transform: translateX(30px);
+    }
+   80%{
+    transform: scale(0.5);
+   }
+   100%{
+    transform: translateX(-30px);
+   }
+}
+a{
+    color: green;
+    font-size: 20px;
+}
+a:hover{
+    color: rebeccapurple;
+}
+a:active{
+    color: white;
+}
+a:visited{
+    color: orange;
 }
