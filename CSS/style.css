@@ -20,10 +20,11 @@ body{
     background-image: linear-gradient(to bottom right, orange, white ,green);
 }
 .left img{
-    height: 60vh;
+    height: 55vh;
     width: 30vw;
     float: left;
     margin: 3vh;
+    margin-top: 4vh;
     
 }
 .left h1{
@@ -133,6 +134,7 @@ h1:hover{
     color: white;
 }
 .idright>p>a:active{
-    color: rebeccapurple;
+    color: green;
 }
+
 
