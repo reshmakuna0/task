@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+  <fieldset>
+    <legend>signup form</legend>
+    <form action="main.py" method ="post">
+      <label for="login">Enter Email ID:</label>
+      <input type = "email" id = "login" name = "x" required>
+      <br> <br>
+      <label for="pwd">Enter Password :</label>
+      <input type = "password" id = "pwd" name = "y" minlength="6" maxlength="13">
+      <br> <br>
+      <label for="age">Enter age :</label>
+      <input type ="number" id = "age" name = "a" min ="18">
+      <br> <br>
+      <label for="colour">Choose colour :</label>
+      <input type ="color" id = "colour" name = "b" >
+      <br> <br>
+      <label for="dob">Enter DOB :</label>
+      <input type ="date" id = "dob" name = "c" readonly>
+      <br> <br>
+      <label for="d&t">Enter date and time :</label>
+      <input type ="datetime-local" id = "d&t" name = "d" disabled>
+      <br> <br>
+      Choose true or false:
+      <input type="radio" id ="tf" name ="choose">
+      <label for="tf"> True</label>
+      <input type="radio" id ="ft" name ="choose">
+      <label for="ft"> False</label>
+<br><br>
+<br> <br>
+<label > Languagesknown: </label>
+<input type="checkbox" id ="te" name ="lan" value="Telugu" >
+<label for="te"> Telugu</label>
+<input type="checkbox" id ="en" name ="lan" value= "English">
+<label for="en"> English</label>
+<input type="checkbox" id ="java" name ="lan" value="Hindi">
+<label for="java"> Hindi</label>
+
+<br><br>
+<label for="range">
+Enter range:
+</label>
+30
+<input type="range" id="range" name = "ran" min="30" max="90"> 90
+<br><br>
+<label for="ph">Enter Phone number :</label>
+<input type ="text" pattern="[0-9]{10} " name="ph" id="ph">
+<br><br>
+<label for="pan">eneter pan number</label>
+<input type="text" id="pan" name ="pan" pattern="[0-9A-Z]{14}">
+
+<!--input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuNw1fDzeYGH2BFi4ufuCv2EORvqxoEMDdoA&s"-->
+<br> <br>
+How u hear about us :
+
+<select name = "sm"  multiple  size="4">
+  <optgroup label="Socialmedia">
+    <option name ="sm" value="facebook">Facebook</option>
+    <option  name ="sm" value="whatsapp">whatsapp</option>
+    <option name ="sm"  value="instagram">instagram</option>
+    <option name ="sm"  value="twitter">twitter</option>
+  </optgroup>
+   <optgroup label = "universities">
+    <option name ="sm" value="IIT">IIT</option>
+    <option  name ="sm" value="AU">AU</option>
+    <option name ="sm"  value="IIIT">IIIT</option>
+    <option name ="sm"  value="NIT">NIT</option>
+   </optgroup>
+</select>
+<br>
+<br>
+      <button>Submit</button>
+    </form>
+  </fieldset>
+   
+</body>
+</html>
