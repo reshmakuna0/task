@@ -124,16 +124,15 @@ h1:hover{
     transform: translateX(-30px);
    }
 }
-a{
-    color: green;
-    font-size: 20px;
+.idright>p>a{
+    color: orange;
+    font-size: 24px;
+    font-style: italic;
 }
-a:hover{
-    color: rebeccapurple;
-}
-a:active{
+.idright>p>a:hover{
     color: white;
 }
-a:visited{
-    color: orange;
+.idright>p>a:active{
+    color: rebeccapurple;
 }
+
