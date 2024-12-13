@@ -24,7 +24,7 @@ body{
     width: 30vw;
     float: left;
     margin: 3vh;
-    margin-top: 4vh;
+    margin-top: 5vh;
     
 }
 .left h1{
@@ -134,6 +134,9 @@ h1:hover{
     color: white;
 }
 .idright>p>a:active{
+    color: green;
+}
+.idright>p>a:visited{
     color: green;
 }
 
