@@ -20,10 +20,10 @@ body{
     background-image: linear-gradient(to bottom right, orange, white ,green);
 }
 .left img{
-    height: 74vh;
+    height: 60vh;
     width: 30vw;
     float: left;
-    margin: 2vh;
+    margin: 3vh;
     
 }
 .left h1{
